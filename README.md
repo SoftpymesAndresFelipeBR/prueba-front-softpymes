@@ -14,3 +14,8 @@ medio de npm en la URL http://localhost:3001/
 
 ## Ejecutar el proyecto
 `npm run serve`
+
+### Si la instalación de los node_modules falla
+`Ejemplo de error: "webpack no se reconoce como un comando interno o externo"`
+
+`Enviar la carpeta de los node_modules comprimida a los candidatos`
