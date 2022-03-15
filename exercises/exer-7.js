@@ -5,16 +5,16 @@ INSTRUCCIONES:
 
 2: Crear una función tomando como parámetro un "id" de "company" y quitar la "company" de la lista.
 
-3: Crear una función tomando como parámetro un "id" de "company" y un nuevo "user" cuyo el apelido es "Delgado",
+4: Crear una función tomando como parámetro un "id" de "company" y un nuevo "user" cuyo el apelido es "Delgado",
    el nombre "Juan", de 35 años y dueño de un carro.
    El nuevo "user" debe agregarse a la lista de "users" de este "company" y tener un "id" generado automáticamente.
    La función también debe modificar el atributo "usersLength" de "company".
 
-4: Crear una función tomando como parámetro un "id" de "company" y un "id" de "user".
+5: Crear una función tomando como parámetro un "id" de "company" y un "id" de "user".
    La función debe quitar este "user" de la lista de "users" de "company" y cambiar el atributo "usersLength" de "company".
 
-5: Crear una función tomando como parámetro dos "id" de "company" y un "id" de "user".
-   La función debe permitir que el user sea transferido de la primera "company" a la segunda "company".
+6: Crear una función tomando como parámetro dos "id" de "company" y un "id" de "user".
+   La función debe permitir que el user sea transferido de la primera "company" a la una "company".
    El atributo "usersLength" de cada "company" debe actualizarse. */
 
 const { cleanConsole } = require('../helpers/system.helpers');
